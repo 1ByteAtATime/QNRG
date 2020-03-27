@@ -1,2 +1,3 @@
 # QRNG
 This qiskit script uses the IBM Q system to generate a random binary matrix with size (runs, shots) (runs can be any amount, shots can be 1-8192, more is closer to random) using a single Hadamard gate. The difference between the number of ones and zeros in the matrix is calculated and is an estimation of the relative randomness. A classical RNG using python is compared to the Hadamard gate RNG, both without noise, with noise, and with noise filtered/mitigated. The QRNG with noise is obviously the worst incomparison to the other three, as can be seen in a bar chart of the 1's-0's totals.
+I would like to thank JRussellHuffman for their hepful Quantum Dice script. https://github.com/JRussellHuffman/quantum-dice
